@@ -27,5 +27,5 @@ function myfunction(){
 //11.Izsaukt funkciju_2, kas pievieno izdevumu sarakstam vertības
 
 //12.Izsaukt funkciju_1, kas izmaina pieejamā budžeta vertību
-funkcija_1(123123)
-funkcija_2(ienakumi,true, 'Alga2',136)
+funkcija_1(123123);
+funkcija_2(ienakumi,true, 'Alga2',136);

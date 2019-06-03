@@ -66,7 +66,19 @@
 }
 .budget__title{
 font-size: 20px;
+color:blue;
 }
+.budget__title:hover{
+  font-size: 30px;
+  color:gold;
+  animation-duration: 1.0s;
+transition: color 2500ms linear;
+  }
+  .button{
+    background-color:blue; 
+    color:red;
+    border-radius: 50%;
+  }
 :root {
   --main-bg-color: coral;
   --main-txt-color: blue;

@@ -125,7 +125,11 @@ clearElement.addEventListener("click", function(){
   location.reload()
 })
 //Pievienot iespēju izveidot jaunu ierakstu budzeta kalkulātora izmantojot enter taustinu
-
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myFunction()").click();
+  }
 //Izveidot vienu mainīgo, kurā veido sarakstu ar ienākumiem un izdevumiem un to visu glabāt objektā, kuru pēc tam saglabā localStorage
 
 //Optimizēt kodu, atbrīvoties no liekā

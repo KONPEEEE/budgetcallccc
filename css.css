@@ -64,6 +64,9 @@
 .list__total {
   align-self: flex-end;
 }
+.budget__title{
+font-size: 20px;
+}
 :root {
   --main-bg-color: coral;
   --main-txt-color: blue;
@@ -85,3 +88,4 @@
   padding: var(--main-padding);
   max-width: var(--max-width);
 }
+
